@@ -1,0 +1,55 @@
+.rightbar{
+    flex: 3.5;
+}
+.rightbar-container{
+    padding: 20px;
+}
+.ad1-img{
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.rightbar-title{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.rightbar-info{
+    margin-bottom: 30px;
+}
+
+.rightbar-info-item{
+    margin-bottom: 10px;
+}
+
+.rightbar-info-key{
+    font-weight: 500;
+    margin-right: 15px;
+    color: #555;
+}
+
+.rightbar-info-value{
+    font-weight: 300;
+}
+
+.rightbar-followings{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.rightbar-following{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.rightbar-following-img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}

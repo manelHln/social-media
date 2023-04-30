@@ -1,0 +1,28 @@
+.feed{
+    flex: 5.5;
+}
+.feed-content-container{
+    padding: 20px;
+}
+.feed-header-container{
+    padding: 20px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.feed-header-one{
+    display: flex;
+    align-items: center;
+}
+.feed-header-one-content{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+.feed-input{
+    border: none;
+    width: 100%;
+}
+.feed-input:focus{
+    outline: none;
+}
